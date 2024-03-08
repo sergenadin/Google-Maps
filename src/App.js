@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Map from './Map';
+import './index.css'; // Importez le fichier index.css
+import MapComponent from './MapComponent';
 
 function App() {
   return (
     <div className="App">
       <main>
-        <Map />
+        <MapComponent /> {/* Utilisez MapComponent au lieu de Map */}
       </main>
     </div>
   );
