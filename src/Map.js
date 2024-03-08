@@ -1,6 +1,7 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import './index.css'; // Importez le fichier CSS pour appliquer les styles
 
 const Map = () => {
   return (
@@ -15,12 +16,12 @@ const Map = () => {
       />
       <Marker position={[51.505, -0.09]}>
         <Popup>
-          <div>
+          <div className="info">
             <h3>Serge Nadin</h3>
             <p>Ville: Rabat</p>
             <p>Profession: Web Dev</p>
             <p>Tel: 0607576502</p>
-            <img src="serge.jpg" alt="Votre photo" style={{ width: '100px' }} />
+            <img src="serge.jpg" alt="Votre photo" className="photo" />
           </div>
         </Popup>
       </Marker>

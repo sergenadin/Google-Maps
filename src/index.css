@@ -1,3 +1,5 @@
+/* index.css */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Ajout du style pour mes informations et ma photo */
+.info {
+  text-align: center;
+}
+
+.photo {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
 }
